@@ -7,7 +7,7 @@ import timeit
 TIME_START_GLOBAL = timeit.default_timer()
 
 # Load the world folder relative to the current working dir
-WORLD_NAME = 'NEW_ORGEN_TEST'
+WORLD_NAME = '21w08b'
 total_r = 512
 r = 128 # Split ops into these 'blocks' to save memory.
 block_fac = math.floor(total_r/r)
